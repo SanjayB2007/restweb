@@ -1,0 +1,84 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ba1717;
+        }
+
+        header {
+            background-color:rgb(22, 198, 52);
+            color: rgb(166, 12, 12);
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: rgb(156, 17, 17);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgb(0, 0, 0);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu-item-content h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #333333ac;
+        }
+
+        .menu-item-content p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #66666661;
+        }
+
+        .menu-item-content .price {
+            font-size: 1.2em;
+            color: #d30000;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #000000;
+            color: rgb(200, 11, 11);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
